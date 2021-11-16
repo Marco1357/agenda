@@ -16,9 +16,9 @@
         </div>
     </form>
 
-    {% for message in message %}
+    {% for message in messages %}
         <div align="center">
-            <strong>Erro! </strong>{ message }
+            <strong>Erro! </strong>{{ message }}
         </div>
     {% endfor %}
 </body>
